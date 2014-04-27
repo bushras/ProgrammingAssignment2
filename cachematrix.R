@@ -46,7 +46,7 @@ makeCacheMatrix <- function(inputVal = matrix()) { ## Takes matrix as an input
 ## cacheSolve inline comments are provided:
 
 cacheSolve <- function(inputVal) { ## Inputs matrix in the function.
-        ## Return a matrix that is the inverse of 'x'
+        ## Return a matrix that is the inverse of 'inputVal'
   ## To get inverse of a matrix this 'if' condition check two things:
   ## a) Matrix is a square
   ## b) Matrix determinant is not zero so that inverse can be calculated.
