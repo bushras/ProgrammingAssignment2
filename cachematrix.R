@@ -11,7 +11,7 @@
 
 ## makeCacheMatrix inline comments are provided:
 
-makeCacheMatrix <- function(x = matrix()) { ## Takes matrix as an input
+makeCacheMatrix <- function(inputVal = matrix()) { ## Takes matrix as an input
   resInverse<-NULL ## Sets the inverse of cache matrix to NULL
   
   ## Four function are defined within makeCacheMatrix function:
@@ -45,7 +45,7 @@ makeCacheMatrix <- function(x = matrix()) { ## Takes matrix as an input
 
 ## cacheSolve inline comments are provided:
 
-cacheSolve <- function(x, ...) { ## Inputs matrix in the function.
+cacheSolve <- function(inputVal) { ## Inputs matrix in the function.
         ## Return a matrix that is the inverse of 'x'
   ## To get inverse of a matrix this 'if' condition check two things:
   ## a) Matrix is a square
